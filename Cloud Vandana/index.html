@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="row" id="row">
+                <div class="col-9 column display"></div>
+                <div class="col-3 column AC" data-value="AC">
+                    <h1><b>AC</b></h1>
+                </div>
+            </div>
+            <div class="row" id="row">
+                <div class="col column" data-value="9">
+                    <h1><b>9</b></h1>
+                </div>
+                <div class="col column" data-value="8">
+                    <h1><b>8</b></h1>
+                </div>
+                <div class="col column" data-value="7">
+                    <h1><b>7</b></h1>
+                </div>
+                <div class="col column operation" data-value="+">
+                    <h1><b>+</b></h1>
+                </div>
+            </div>
+            <div class="row" id="row">
+                <div class="col column" data-value="4">
+                    <h1><b>4</b></h1>
+                </div>
+                <div class="col column" data-value="5">
+                    <h1><b>5</b></h1>
+                </div>
+                <div class="col column" data-value="6">
+                    <h1><b>6</b></h1>
+                </div>
+                <div class="col column operation" data-value="-">
+                    <h1><b>-</b></h1>
+                </div>
+
+            </div>
+            <div class="row" id="row">
+                <div class="col column" data-value="1">
+                    <h1><b>1</b></h1>
+                </div>
+                <div class="col column" data-value="2">
+                    <h1><b>2</b></h1>
+                </div>
+                <div class="col column" data-value="3">
+                    <h1><b>3</b></h1>
+                </div>
+                <div class="col column operation" data-value="/">
+                    <h1><b><span>&#247;</span></b></h1>
+                </div>
+            </div>
+            <div class="row" id="row">
+                <div class="col column" data-value=".">
+                    <h1><b>.</b></h1>
+                </div>
+                <div class="col column" data-value="0">
+                    <h1><b>0</b></h1>
+                </div>
+                <div class="col column" data-value="=">
+                    <h1><b>=</b></h1>
+                </div>
+                <div class="col column operation" data-value="*">
+                    <h1><b>*</b></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="reverse-word-container">
+        <h1>Reverse Each Word In The Sentence</h1>
+        <input type="text" id="input-value">
+        <div class="button-container">
+            <button class="btn btn-primary button" onclick="getValue()">REVERSE</button>
+            <button class="btn btn-primary button" onclick="clearValue()">CLEAR</button>
+        </div>
+    </div>
+    <hr>
+
+    <div class="reverse-word-container">
+        <h1>Sorting An Array In Descending Order</h1>
+        <input type="text" id="sort-value">
+        <div class="button-container">
+            <button class="btn btn-primary button" onclick="getSortValue()">SORT</button>
+            <button class="btn btn-primary button" onclick="clearSortValue()">CLEAR</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

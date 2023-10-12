@@ -1,0 +1,97 @@
+:root {
+    --calculator-height: 70vh;
+}
+
+.calculator-container {
+    background-color: #bdbdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    height: var(--calculator-height);
+    background-color: black;
+    width: 30%;
+    margin: 0;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c3f1ee;
+}
+
+b:hover {
+    cursor: pointer;
+}
+
+#row {
+    height: calc(var(--calculator-height) / 5);
+    padding: 0%;
+    margin: 0%;
+}
+
+.display {
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+
+.AC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #129688;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c3f1ee;
+
+}
+
+.operation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #757575;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c3f1ee;
+}
+
+.reverse-word-container {
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input-value,
+#sort-value {
+    width: 40vw;
+    padding: 4px;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(30, 24, 24);
+    text-align: center;
+}
+
+.button {
+    margin: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
